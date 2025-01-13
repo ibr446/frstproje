@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Contact Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .nav-link {
+          @apply px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg hover:text-accent hover:bg-primary;
+        }
+    </style>
+</head>
+<body class="bg-primary">
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <a class="flex items-center" href="#" target="_blank">
+            <span class="self-center text-xl font-semibold whitespace-nowrap text-secondary">Tutorial Republic</span>
+        </a>
+        <div class="flex md:order-2">
+            <button class="text-white bg-secondary hover:bg-accent focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
+                    type="button">Contact
+            </button>
+            <button aria-controls="navbar-sticky" aria-expanded="false"
+                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    data-collapse-toggle="navbar-sticky" type="button">
+                <span class="sr-only">Open main menu</span>
+                <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewbox="0 0 20 20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                          fill-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+                <li>
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/service">service</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li>
+                    <a aria-current="page" class="nav-link" href="/contact/">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container mx-auto my-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <img alt="A visually engaging and inviting image that showcases our commitment to customer service and open communication. It should convey a sense of approachability, professionalism, and a welcoming atmosphere for our customers and clients."
+                 class="w-full h-96 object-cover rounded-lg"
+                 src="data:image/png;base64,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"/>
+        </div>
+        <div class="flex flex-col justify-center">
+            <h1 class="text-4xl font-bold text-secondary mb-4">Contact Us</h1>
+            <p class="text-gray-700 mb-6">
+                Agar sizda qandaydur muamolik bo'lsa siz contact qismida
+                Nima hato borligini yozishingiz imkoniga egasiz!
+            </p>
+            <div class="mb-4">
+                <h3 class="text-xl font-bold text-secondary mb-2">Name</h3>
+                <p class="text-gray-700">Misol uchun Mark</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-bold text-secondary mb-2">Message</h3>
+                <p class="text-gray-700">Siz bu yerda nima muammo bo'lganini yozishingiz mumkun</p>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl font-bold text-secondary mb-2">Email</h3>
+                <p class="text-gray-700">info@example.com</p>
+            </div>
+            <a class="inline-block bg-secondary hover:bg-accent text-white font-bold py-2 px-4 rounded transition-colors duration-300"
+               href="#" target="_blank">
+                Send Message
+            </a>
+        </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-3xl font-bold text-secondary mb-4">Send Us a Message</h2>
+        <form method="post">
+            {% csrf_token %}
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="name">
+                    Name
+                </label>
+
+                <input name="name"
+                       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                       id="name" type="text" placeholder="Enter your name"/>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="email">
+                    Email
+                </label>
+                <input name="email"
+                       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                       id="email" type="email" placeholder="Enter your email"/>
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 font-bold mb-2" for="message">
+                    Message
+                </label>
+                <textarea name="message"
+                          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                          id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button class="focus:shadow-outline rounded bg-secondary py-2 px-4 font-bold text-blue hover:bg-accent focus:outline-none"
+                        type="submit">
+                Submit
+            </button>
+    </form>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
